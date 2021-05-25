@@ -10,7 +10,7 @@ class user extends Component {
     }
 
     buttonHandler = e => {
-        fetch("http://127.0.0.1:5000/", {
+        fetch("http://65.1.133.147:5000/", {
             method : "GET",
             mode:'cors', // no-cors, *cors, same-origin
             cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
